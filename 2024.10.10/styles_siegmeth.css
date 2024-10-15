@@ -57,3 +57,24 @@ img {
     padding: 0px 20px 0px 20px;
     margin: 0 auto;
 }
+
+ul li:first-child {
+    color: green;
+}
+
+ul li:last-child {
+    color: blueviolet;
+}
+
+ul li:nth-child(2n) {
+    color: lawngreen;
+}
+
+.social-links li a:only-child {
+
+    color: red;
+}
+
+ul li:not(:first-child) {
+    text-decoration: underline;
+}
