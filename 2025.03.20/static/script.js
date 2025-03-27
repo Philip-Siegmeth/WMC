@@ -1,4 +1,4 @@
-// Römisch → Zahl
+
 document.getElementById("romanButton").addEventListener("click", function () {
     const eingabe = document.getElementById("romanInput").value;
     const url = "/Roman?input=" + encodeURIComponent(eingabe);
@@ -14,7 +14,6 @@ document.getElementById("romanButton").addEventListener("click", function () {
         });
 });
 
-// Zahl → Römisch
 document.getElementById("numberButton").addEventListener("click", function () {
     const eingabe = document.getElementById("numberInput").value;
     const url = "/Numbers?input=" + encodeURIComponent(eingabe);
